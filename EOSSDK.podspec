@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "EOSSDK"
-  s.version      = "1.1"
-  s.summary      = "EOSSDK 1.1 version"
+  s.version      = "1.2"
+  s.summary      = "EOSSDK 1.2 version"
   
    s.description      = <<-DESC
 TODO: Add long description of the pod here.
