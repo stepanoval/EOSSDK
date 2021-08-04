@@ -1,0 +1,5 @@
+framework module EOSSDK{
+    umbrella header "EOSSDKUmbrellaHeader.h"
+    export *
+    module * { export * }
+}
