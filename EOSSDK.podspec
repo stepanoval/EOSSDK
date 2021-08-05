@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "EOSSDK"
-  s.version      = "1.3"
-  s.summary      = "EOSSDK 1.3 version"
+  s.version      = "1.4"
+  s.summary      = "EOSSDK 1.4 version"
   
    s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = "9.0"
   
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES','EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = {'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.source       = { :git => 'https://github.com/stepanoval/EOSSDK.git', :tag => "#{s.version}" }
